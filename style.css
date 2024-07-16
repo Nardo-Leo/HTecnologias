@@ -1,0 +1,741 @@
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+body{
+    background-color: #7890a8;
+}
+
+header{
+    height: 15vh;
+    background-color: whitesmoke;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding: 5px 100px 5px 50px;
+    font-size: larger;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+
+header div{
+    display: flex;
+    align-items: center;
+}
+
+#logo{
+    height: 50px;
+    width: 50px;
+    margin-right: 15px;
+}
+
+nav a{
+    margin: 0px 5px;
+    text-decoration: none;
+    color: black;  
+}
+
+nav a:hover{
+    color: cadetblue; 
+}
+
+main{
+    margin: 0px;
+    /*background-color: crimson;*/
+    height: 320vh;
+}
+
+.topico{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#Home{
+    /*background-color: blueviolet;*/
+    background-color: #7890a8;
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    padding: 30px 100px 0px 0px;
+    
+}
+
+#Home img{
+    height: 100%;
+    width: 40%;
+}
+
+#Home div{
+    /*background-color: aqua;*/
+    height: 100%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+}
+
+.titulos{
+    font-size: 2.2em;
+    margin-bottom: 15px;
+
+}
+
+#Home div p{
+    /*background-color: antiquewhite;*/
+    height: 100%;
+    width: 100%;
+    font-size: 1.4em;
+    
+    letter-spacing: 1px;
+}
+
+#Sobre{
+    /*background-color: aliceblue;*/
+    background-color: #7890a8;
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0px 0px 110px ;
+}
+
+#Missao, #Visao{
+    /*background-color: blueviolet;*/
+    width: 48%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.texto{
+    margin-top: 20px;
+    font-size: 1.3em;
+    width: 87%;
+}
+
+#Sobre div p{
+
+    letter-spacing: 1px;
+
+}
+
+
+
+
+
+/************************************************************/
+/************************************************************/
+/************************************************************/
+
+#Servicos{
+    /*background-color: aqua;*/
+    /*background-color:#224193;*/
+    background-color: #f0a818;
+    height: 90vh;
+    
+}
+
+#Servicos h3{
+    color: black;
+}
+
+#Servicos section{
+    display: flex;
+    flex-direction: row;
+}
+
+.cards p{
+    margin: 0;
+    font-size: 22px;
+    font-weight: 600;
+    color: black;
+}
+
+.cards{
+    margin: 10px;
+    background-color: #304878;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 22vw;
+    height: 45vh;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    box-shadow: 5px 7px 5px 1px;
+    border: solid 2px black;
+    
+    
+
+}
+
+ul{
+    /*background-color: aqua;*/
+    width: 100%;
+    margin-top: 20px;
+    padding: 0;
+    
+    
+}
+
+li{
+  
+    /*background-color: brown;*/
+    margin: 5px 0 5px 0;
+    list-style-type: none;
+    height: 40px;
+    width: 300px;
+    font-size: 1em;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    color: whitesmoke;
+}
+
+#logo_servicos{
+    display: flex;
+    flex-direction: column;
+    /*background-color: yellow;*/
+    height: 60%;
+}
+
+/*#um{
+    background-color: brown;
+}*/
+
+/*#dois{
+    background-color: whitesmoke;
+}*/
+
+.icons{
+    /*background-color: #ccc;*/
+    height: 30%;
+    width: 100%;
+}
+
+.icons>section{
+    
+    display: flex;
+    flex-direction: column; 
+
+}
+
+
+.icons>section>img{
+    
+    height: 80%;
+    width: 50%;
+    margin: 15px 0px 0px 10px;
+} 
+
+
+
+/************************************************************/
+/************************************************************/
+/************************************************************/
+
+
+#Contato{
+
+    /*background-color:grey;*/
+    height: 130vh;
+    /*background-color: #DF3C5F;*/
+    background-color:#7890a8;
+    
+}
+
+#Contato h3{
+    color: whitesmoke;
+}
+
+
+#Contato>a{
+   
+    background-color:#60ba4e;
+    margin: 40px;
+    padding: 15px 0px;
+    width: 200px;
+    border-radius: 25px;
+    border-style: groove;
+    border: solid 2px black;
+    box-shadow: 6px 6px black;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 1.4em;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+    
+
+}
+
+#Contato>a:hover{
+    background-color: #76ce61;
+    color: whitesmoke;
+    box-shadow: black;
+
+}
+
+
+form{
+    /*background-color: chocolate;*/
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 60vw;
+    padding: 30px;
+    
+    
+}
+
+label{
+    /*background-color: chartreuse;*/
+    height: 30px;
+    font-size: 1.5em;
+    padding: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+input[type=email]{
+    /*background-color:blanchedalmond;*/
+    font-size: 1.2em;
+    padding: 5px;
+    margin-bottom: 30px;
+    width: 100%;
+
+}
+
+textarea[type=text]{
+    /*background-color:burlywood;*/
+    height: 20vh;
+    font-size: 1.2em;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+button[type=submit]{
+    background-color:#60ba4e;
+    height: 60px;
+    width: 30%;
+    border-radius: 10px;
+    border: solid 3px black;
+    font-size: 1.5em;
+    font-weight: bolder;
+    color: black;
+}
+
+
+button[type=submit]:hover{
+    background-color:#76ce61;
+    color:whitesmoke;
+    cursor: pointer;
+}
+
+
+
+
+/************************************************************/
+/************************************************************/
+/************************************************************/
+
+footer
+{
+    background-color: black;
+    height: 35vh;
+    justify-content: space-around;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    color: whitesmoke;
+    
+}
+
+footer>section{
+    /*background-color: #43186b;*/
+    display: flex;
+    width: 60%;
+    height: 80%;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+#sectopicos{
+    /*background-color: blanchedalmond;*/
+    display: flex;
+    flex-direction: column;
+}
+
+#sectopicos>a{
+    color:whitesmoke;
+    font-size: 1em;
+    font-weight: 600;
+    margin-top: 5px;
+    
+}
+
+#sectopicos>a:hover{
+    color: greenyellow;
+}
+
+h5{
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+@media (min-width:340px) and (max-width:450px) {
+
+    
+    body{
+        padding: 0px 0px;
+        background-color: #7890a8;
+    }
+
+
+
+    header{
+    
+        height: 10vh;
+        justify-content: space-around;
+        padding: 0px;
+        font-size: 0.7em;
+        margin: 0px;
+        width: 100vw;
+
+    }
+    
+    
+    #logo{
+        height: 40px;
+        width: 40px;
+        margin-right: 10px;
+    }
+    
+    nav a{
+        margin: 0px 2px;
+    }
+    
+    nav a:hover{
+        color: black; 
+
+    }
+/*//////////////////////////////////////////////////////////////////////////////////***********/
+/*//////////////////////////////////////////////////////////////////////////////////***********/
+/*//////////////////////////////////////////////////////////////////////////////////***********/
+    main{
+        margin: 0px;
+        padding: 0px 0px;
+        /*background-color: crimson;*/
+        height: 420vh;
+    }
+    
+    .topico{
+        background-color: antiquewhite;
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+/*//////////////////////////////////////////////////////////////////////////////////***********/
+/*//////////////////////////////////////////////////////////////////////////////////***********/
+/*//////////////////////////////////////////////////////////////////////////////////***********/
+
+
+    #Home{
+
+        background-color: #7890a8;
+        height: 65vh;
+        
+        flex-direction: column;
+        
+        padding:  0px;
+        
+    }
+    
+    #Home img{
+        height: 20vh;
+        width: 40%;
+        margin-bottom: 10px;
+    }
+    
+    #Home div{
+        
+        height: 40%;
+        width: 95%;
+    }
+    
+    .titulos{
+        font-size: 1.7em;
+        margin-bottom: 10px;
+    
+    }
+    
+    #Home div p{
+        
+        width: 100%;
+        font-size: 0.9em;
+        letter-spacing: 0px;
+    }
+    
+
+/*//////////////////////////////////////////////////////////////////////////////////***********/
+/*//////////////////////////////////////////////////////////////////////////////////***********/
+/*//////////////////////////////////////////////////////////////////////////////////***********/
+
+#Sobre{
+    /*background-color: aliceblue;*/
+    background-color: #7890a8;
+    
+    height: 60vh;
+    flex-direction: column;
+    align-items: center;
+    padding:0px ;
+}
+
+
+
+#Missao, #Visao{
+    width: 100%;
+    height: 30vh;
+    align-items: center;
+    
+}
+
+
+
+.texto{
+    margin-top: 0px;
+    font-size: 0.8em;
+    width: 93%;
+}
+
+
+
+
+
+
+
+/************************************************************/
+/************************************************************/
+/************************************************************/
+
+#Servicos{
+    background-color: #f0a818;
+    height: 200vh;
+    
+}
+
+#Servicos h3{
+    color: black;
+}
+
+#Servicos section{
+    
+    flex-direction: column;
+}
+
+.cards p{
+    color: whitesmoke;
+    font-size: 18px;
+
+}
+
+.cards{
+    background-color:#304878;
+   
+    width: 80vw;
+    height: 35vh;
+    
+    
+    
+
+}
+
+
+li{
+  
+    color: whitesmoke;
+    height: 30px;
+
+    
+}
+
+
+
+#logo_servicos{
+    display: flex;
+    flex-direction: column;
+    /*background-color: yellow;*/
+    height: 60%;
+
+    display: flex;
+    flex-direction: row; 
+    display: none;
+}
+
+/*#um{
+    background-color: brown;
+}*/
+
+/*#dois{
+    background-color: whitesmoke;
+}*/
+
+.icons{
+    /*background-color: #ccc;*/
+    height: 30%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: row; 
+}
+
+.icons>section{
+    
+    display: flex;
+    flex-direction: column; 
+
+}
+
+
+.icons>section>img{
+    
+    height: 30%;
+    width: 15%;
+    margin: 0px;
+} 
+
+
+
+
+
+/************************************************************/
+/************************************************************/
+/************************************************************/
+
+
+#Contato{
+
+    /*background-color:grey;*/
+    height: 110vh;
+    /*background-color: #DF3C5F;*/
+    background-color:#7890a8;
+    
+}
+
+#Contato>h3{
+    margin-top: 10px;
+    color: whitesmoke;
+    font-size: 1.3em;
+}
+
+
+
+form{
+   
+    width: 80vw;
+    padding: 10px 30px;
+    
+    
+}
+
+label{
+    /*background-color: chartreuse;*/
+    color: whitesmoke;
+
+    font-size: 1.2em;
+}
+
+input[type=email]{
+    /*background-color:blanchedalmond;*/
+    font-size: 1em;
+
+}
+
+
+button[type=submit]{
+
+    width: 60%;
+    border-radius: 15px;
+    border: solid 2px black;
+    font-size: 1.3em;
+}
+
+
+
+/************************************************************/
+/************************************************************/
+/************************************************************/
+
+
+footer
+{
+
+    height: 70vh;
+    justify-content: space-between;
+    
+    
+}
+
+footer>section{
+    width: 85%;
+    height: 70%;
+    flex-direction: column;
+    
+}
+
+
+
+#sectopicos>a{
+    color:whitesmoke;
+    font-size: 1em;
+    margin-top: 5px;
+    text-decoration: none;
+    
+}
+
+#sectopicos>a:hover{
+    color: whitesmoke;
+}
+
+h5{
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+    
+}
+
+
+
+
+@media (min-width:381px)and (max-width:420px) {
+
+    
+    
+    
+}
+
+
+
+
+
+
