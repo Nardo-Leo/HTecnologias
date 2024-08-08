@@ -6,12 +6,14 @@
 }
 
 body{
-    background-color: #7890a8;
+    /*background-color: #7890a8;*/
+    background-color: whitesmoke;
 }
 
 header{
     height: 15vh;
-    background-color: whitesmoke;
+    /*background-color: whitesmoke;*/
+    background-color: #5733e9;
 
     display: flex;
     justify-content: space-between;
@@ -28,23 +30,30 @@ header div{
     align-items: center;
 }
 
+header div p{
+    color: white;
+}
+
 #logo{
     height: 50px;
     width: 50px;
     margin-right: 15px;
 }
 
+
 nav a{
     margin: 0px 5px;
     text-decoration: none;
-    color: black;  
+    color: white;  
 }
 
 nav a:hover{
-    color: cadetblue; 
+    color: black;
+    text-decoration-line: underline;
 }
 
 main{
+    background-color: whitesmoke;
     margin: 0px;
     /*background-color: crimson;*/
     height: 320vh;
@@ -59,8 +68,7 @@ main{
 
 
 #Home{
-    /*background-color: blueviolet;*/
-    background-color: #7890a8;
+    /*background-color: #7890a8;*/
     height: 70vh;
     display: flex;
     flex-direction: row;
@@ -85,6 +93,7 @@ main{
 .titulos{
     font-size: 2.2em;
     margin-bottom: 15px;
+    color: #3a1de1;
 
 }
 
@@ -93,13 +102,14 @@ main{
     height: 100%;
     width: 100%;
     font-size: 1.4em;
-    
+    color: #7449f0 ;
     letter-spacing: 1px;
 }
 
 #Sobre{
     /*background-color: aliceblue;*/
-    background-color: #7890a8;
+    /*background-color: #7890a8;*/
+    background-color: whitesmoke;
     height: 50vh;
     display: flex;
     justify-content: space-between;
@@ -112,6 +122,7 @@ main{
     height: 90%;
     display: flex;
     flex-direction: column;
+    color: #7449f0;
     
     
 }
@@ -123,9 +134,7 @@ main{
 }
 
 #Sobre div p{
-
     letter-spacing: 1px;
-
 }
 
 
@@ -139,14 +148,16 @@ main{
 #Servicos{
     /*background-color: aqua;*/
     /*background-color:#224193;*/
-    background-color: #f0a818;
+    /*background-color: #f0a818;*/
     height: 90vh;
     
 }
 
+/*
 #Servicos h3{
     color: black;
 }
+*/
 
 #Servicos section{
     display: flex;
@@ -157,12 +168,15 @@ main{
     margin: 0;
     font-size: 22px;
     font-weight: 600;
-    color: black;
+    /*color: whitesmoke;*/
+    color: white;
+
 }
 
 .cards{
     margin: 10px;
     background-color: #304878;
+    padding: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -170,8 +184,8 @@ main{
     height: 45vh;
     margin-bottom: 50px;
     border-radius: 10px;
-    box-shadow: 5px 7px 5px 1px;
-    border: solid 2px black;
+    box-shadow: 4px 5px 15px 1px;
+    border: solid 2px #ae76ff;
     
     
 
@@ -197,7 +211,8 @@ li{
     font-weight: 600;
     display: flex;
     align-items: center;
-    color: whitesmoke;
+    /*color: whitesmoke;*/
+    color: white;
 }
 
 #logo_servicos{
@@ -248,7 +263,8 @@ li{
     /*background-color:grey;*/
     height: 130vh;
     /*background-color: #DF3C5F;*/
-    background-color:#7890a8;
+    /*background-color:#7890a8;*/
+    background-color: #1b0d90;
     
 }
 
@@ -259,14 +275,14 @@ li{
 
 #Contato>a{
    
-    background-color:#60ba4e;
+    background-color: #76ce61;
     margin: 40px;
     padding: 15px 0px;
     width: 200px;
     border-radius: 25px;
     border-style: groove;
-    border: solid 2px black;
-    box-shadow: 6px 6px black;
+    border: solid 2px #daffc1 ;
+    box-shadow: 6px 6px 10px black;
 
 
     display: flex;
@@ -276,15 +292,16 @@ li{
     font-size: 1.4em;
     font-weight: 600;
     text-decoration: none;
-    color: black;
+    color: whitesmoke;
     
 
 }
 
 #Contato>a:hover{
-    background-color: #76ce61;
-    color: whitesmoke;
+    background-color: #7fbf6d ;
+    color: black;
     box-shadow: black;
+    border: solid 2px whitesmoke;
 
 }
 
@@ -307,6 +324,8 @@ label{
     padding: 5px;
     margin-bottom: 10px;
     width: 100%;
+    color: whitesmoke;
+    font-weight: 600;
 }
 
 input[type=email]{
@@ -331,17 +350,18 @@ button[type=submit]{
     height: 60px;
     width: 30%;
     border-radius: 10px;
-    border: solid 3px black;
+    border: solid 3px #daffc1;
     font-size: 1.5em;
     font-weight: bolder;
-    color: black;
+    color: whitesmoke;
 }
 
 
 button[type=submit]:hover{
     background-color:#76ce61;
-    color:whitesmoke;
+    color: black;
     cursor: pointer;
+    border: solid 3px whitesmoke;
 }
 
 
@@ -353,13 +373,13 @@ button[type=submit]:hover{
 
 footer
 {
-    background-color: black;
+    background-color: whitesmoke;
     height: 35vh;
     justify-content: space-around;
     display:flex;
     align-items: center;
     flex-direction: column;
-    color: whitesmoke;
+    color: #7449f0;
     
 }
 
@@ -380,7 +400,7 @@ footer>section{
 }
 
 #sectopicos>a{
-    color:whitesmoke;
+    color:#7449f0;
     font-size: 1em;
     font-weight: 600;
     margin-top: 5px;
@@ -388,7 +408,8 @@ footer>section{
 }
 
 #sectopicos>a:hover{
-    color: greenyellow;
+    color: black;
+    text-decoration-line: underline;
 }
 
 h5{
@@ -396,16 +417,20 @@ h5{
     margin-bottom: 10px;
 }
 
+#infoContato p{
+    margin: 10px 0px;
+}
 
 
 
 
-@media (min-width:340px) and (max-width:450px) {
+
+@media (min-width:300px) and (max-width:480px) {
 
     
     body{
-        padding: 0px 0px;
-        background-color: #7890a8;
+        padding: 0px 0px; 
+        width: 99vw;
     }
 
 
@@ -433,7 +458,9 @@ h5{
     }
     
     nav a:hover{
-        color: black; 
+        color: black;
+        text-decoration-line: underline;
+        
 
     }
 /*//////////////////////////////////////////////////////////////////////////////////***********/
@@ -443,11 +470,10 @@ h5{
         margin: 0px;
         padding: 0px 0px;
         /*background-color: crimson;*/
-        height: 420vh;
+        height: 400vh;
     }
     
     .topico{
-        background-color: antiquewhite;
         padding: 0px;
         display: flex;
         flex-direction: column;
@@ -460,14 +486,9 @@ h5{
 
 
     #Home{
-
-        background-color: #7890a8;
         height: 65vh;
-        
         flex-direction: column;
-        
-        padding:  0px;
-        
+        padding: 0px; 
     }
     
     #Home img{
@@ -476,20 +497,18 @@ h5{
         margin-bottom: 10px;
     }
     
-    #Home div{
-        
-        height: 40%;
+    #Home div{ 
+        height: 100%;
         width: 95%;
+
     }
     
     .titulos{
         font-size: 1.7em;
         margin-bottom: 10px;
-    
     }
     
     #Home div p{
-        
         width: 100%;
         font-size: 0.9em;
         letter-spacing: 0px;
@@ -500,11 +519,8 @@ h5{
 /*//////////////////////////////////////////////////////////////////////////////////***********/
 /*//////////////////////////////////////////////////////////////////////////////////***********/
 
-#Sobre{
-    /*background-color: aliceblue;*/
-    background-color: #7890a8;
-    
-    height: 60vh;
+#Sobre{ 
+    height: 53vh;
     flex-direction: column;
     align-items: center;
     padding:0px ;
@@ -516,6 +532,7 @@ h5{
     width: 100%;
     height: 30vh;
     align-items: center;
+    margin-top: 10px;
     
 }
 
@@ -538,44 +555,32 @@ h5{
 /************************************************************/
 
 #Servicos{
-    background-color: #f0a818;
-    height: 200vh;
-    
+    height: 185vh;
 }
 
+/*
 #Servicos h3{
     color: black;
 }
 
+*/
+
 #Servicos section{
-    
     flex-direction: column;
 }
 
 .cards p{
-    color: whitesmoke;
     font-size: 18px;
-
 }
 
 .cards{
-    background-color:#304878;
-   
     width: 80vw;
     height: 35vh;
-    
-    
-    
-
 }
 
 
 li{
-  
-    color: whitesmoke;
-    height: 30px;
-
-    
+    height: 30px; 
 }
 
 
@@ -583,9 +588,7 @@ li{
 #logo_servicos{
     display: flex;
     flex-direction: column;
-    /*background-color: yellow;*/
     height: 60%;
-
     display: flex;
     flex-direction: row; 
     display: none;
@@ -603,28 +606,21 @@ li{
     /*background-color: #ccc;*/
     height: 30%;
     width: 100%;
-
     display: flex;
     flex-direction: row; 
 }
 
 .icons>section{
-    
     display: flex;
     flex-direction: column; 
-
 }
 
 
-.icons>section>img{
-    
+.icons>section>img{ 
     height: 30%;
     width: 15%;
     margin: 0px;
 } 
-
-
-
 
 
 /************************************************************/
@@ -633,46 +629,33 @@ li{
 
 
 #Contato{
-
-    /*background-color:grey;*/
-    height: 110vh;
-    /*background-color: #DF3C5F;*/
-    background-color:#7890a8;
-    
+    height: 95vh;
+    width: 100vw;
 }
 
 #Contato>h3{
     margin-top: 10px;
-    color: whitesmoke;
     font-size: 1.3em;
 }
 
 
 
 form{
-   
-    width: 80vw;
-    padding: 10px 30px;
-    
-    
+    width: 90vw;
+    padding: 10px 30px;  
 }
 
 label{
-    /*background-color: chartreuse;*/
-    color: whitesmoke;
-
     font-size: 1.2em;
 }
 
 input[type=email]{
-    /*background-color:blanchedalmond;*/
     font-size: 1em;
-
+    width: 100%;
 }
 
 
 button[type=submit]{
-
     width: 60%;
     border-radius: 15px;
     border: solid 2px black;
@@ -688,24 +671,27 @@ button[type=submit]{
 
 footer
 {
-
-    height: 70vh;
+    margin: 0;
+    padding: 0;
+    height: 50vh;
     justify-content: space-between;
-    
-    
 }
 
 footer>section{
     width: 85%;
     height: 70%;
-    flex-direction: column;
-    
+    flex-direction: column;  
+    margin-top: 0px;
+}
+
+#infoContato{
+    margin-top: 25px;
 }
 
 
 
 #sectopicos>a{
-    color:whitesmoke;
+
     font-size: 1em;
     margin-top: 5px;
     text-decoration: none;
@@ -713,7 +699,8 @@ footer>section{
 }
 
 #sectopicos>a:hover{
-    color: whitesmoke;
+    color: black;
+    text-decoration-line: underline;
 }
 
 h5{
@@ -727,15 +714,129 @@ h5{
 
 
 
-@media (min-width:381px)and (max-width:420px) {
+@media (min-width:381px)and (max-width:410px) {
 
-    
-    
-    
+    header{
+        height: 7vh;
+    }
+
+    main{
+        height: 340vh;
+    }
+
+    #Home{
+        height: 50vh;
+    }
+
+    #Sobre{
+        height: 40vh;
+    }
+
+    #Servicos{
+        height: 175vh;
+    }
+
+    .cards{
+        height: 35vh;
+    }
+
+    li{
+        margin-bottom: 15px;
+    }
+
+    #Contato{
+        height: 75vh;
+    }
+
+    footer{
+        height: 40vh;
+    }
+
+}
+
+
+@media (min-width:411px)and (max-width:420px) {
+
+    header{
+        height: 7vh;
+    }
+
+    main{
+        height: 330vh;
+    }
+
+    #Home{
+        height: 50vh;
+    }
+
+    #Sobre{
+        height: 45vh;
+    }
+
+    #Servicos{
+        height: 160vh;
+    }
+
+    .cards{
+        height: 32vh;
+    }
+
+    li{
+        margin-bottom: 15px;
+    }
+
+    #Contato{
+        height: 75vh;
+    }
+
+    footer{
+        height: 35vh;
+    }
+
 }
 
 
 
+@media(min-width:421px) and (max-width:450px){
+    
+
+    header{
+        height: 7vh;
+    }
+
+    main{
+        height: 310vh;
+    }
+
+    #Home{
+        height: 45vh;
+    }
+
+    #Sobre{
+        height: 35vh;
+    }
+
+    #Servicos{
+        height: 155vh;
+    }
+
+    .cards{
+        height: 30vh;
+    }
+
+    li{
+        margin-bottom: 15px;
+    }
+
+    #Contato{
+        height: 75vh;
+    }
+
+    footer{
+        height: 35vh;
+    }
+
+}
 
 
 
